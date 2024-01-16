@@ -14,7 +14,7 @@ export default function Component(props) {
   return (
     <>
       <Head>
-        <title class="jason">{siteTitle}</title>
+        <title>{siteTitle}</title>
       </Head>
 
       <Header
@@ -23,7 +23,7 @@ export default function Component(props) {
         menuItems={menuItems}
       />
 
-      <main className="container">
+      <main className="container JASON">
         <EntryHeader title="Welcome to the Faust Scaffold Blueprint" />
 
         <section className={style.cardGrid}>
