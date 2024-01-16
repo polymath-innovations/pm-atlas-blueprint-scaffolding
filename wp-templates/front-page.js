@@ -14,7 +14,7 @@ export default function Component(props) {
   return (
     <>
       <Head>
-        <title>{siteTitle}</title>
+        <title class="jason">{siteTitle}</title>
       </Head>
 
       <Header
